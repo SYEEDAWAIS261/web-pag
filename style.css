@@ -1,0 +1,49 @@
+body{
+    background-image: url(./taswer.jpg) ;
+}
+.header{
+    width: 150px;
+    
+    height: 70px;
+    border: 2px solid rgb(172, 172, 234);
+    border-radius: 1em;
+    margin: 10px;
+    padding: 1%;
+    background-color: hsl(208, 37%, 70%);
+}
+.section{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 1%;
+    display: flex;
+    box-shadow: 5%;
+    text-shadow: 3% solid rgb(159, 85, 85);
+}
+.container{
+    display: flex; /* Flexbox layout */
+    justify-content: space-around; /* Equal spacing between boxes */
+    align-items: center; /* Center vertically */
+    height: 200px; /* Set the height of the container */
+   
+}        
+   
+.box {
+    width: 270px; /* Width of each box */
+    border-radius: 1em;
+    height: 165px; /* Height of each box */
+    background-color: hsl(208, 21%, 84%); /* Box background color */
+    text-align: center; /* Center text horizontally */
+    line-height: 100px; /* Center text vertically */
+    color: #15111a; /* Text color */
+} 
+
+
+.footer{
+    border: 2px solid rgb(172, 172,234);
+    margin: 10px;
+    width: 190px;
+    height: 109px;
+    border-radius: 1em;
+    padding: 1%;
+    background-color: rgb(172,172,234);
+}
